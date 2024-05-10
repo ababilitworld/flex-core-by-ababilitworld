@@ -1,6 +1,6 @@
 <?php
 
-namespace Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper;
+namespace Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase;
 
 (defined( 'ABSPATH' ) && defined( 'WPINC' )) || die();
 
@@ -13,7 +13,7 @@ use DomainException;
 use InvalidArgumentException;
 use UnexpectedValueException;
 
-if (!class_exists('Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper\PhpJwtHelper')) 
+if (!class_exists('Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper')) 
 {
     class PhpJwtHelper
     {
@@ -172,7 +172,7 @@ if (!class_exists('Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\F
     /**
      * Return the instance
      *
-     * @return Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper\PhpJwtHelper
+     * @return Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper
      */
     function php_jwt_helper() 
     {
