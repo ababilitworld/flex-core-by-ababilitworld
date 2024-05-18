@@ -38,13 +38,13 @@ if (!class_exists('Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\F
             }
         }
 
-        public static function verify_request_token($request)
+        public static function verify_request_token($token_name,$request)
         {
             try 
             {
                 $data = $request->get_json_params();
                 $headerToken = self::get_token_from_request($request);
-                $token = $data['stmfsToken'];
+                $token = $data[$token_name];
                 if (!$token || self::is_token_invalid($token)) 
                 {
                     return false;

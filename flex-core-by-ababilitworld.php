@@ -45,7 +45,7 @@
 	use Ababilitworld\FlexCoreByAbabilitworld\Plugin;
 	use Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Function\WpErrorHandler;
 	use Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Function\WpFunction;
-	use Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper\PhpJwtHelper;
+	use Ababilitworld\FlexCoreByAbabilitworld\Core\Library\Util\Api\Firebase\PhpJwtHelper;
 	
 	new Plugin();
 	new WpErrorHandler();
